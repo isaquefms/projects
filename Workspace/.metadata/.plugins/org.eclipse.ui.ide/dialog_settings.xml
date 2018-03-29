@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/run/media/isaque/Base/Workspace/Atividade_6"/>
+		<item value="/run/media/isaque/Base/Workspace/Aprendizado"/>
+		<item value="/run/media/isaque/Base/Workspace/IsaqueFernando"/>
+		<item value="/media/isaque/Base/Workspace/IsaqueFernando"/>
+		<item value="/media/isaque/Base/Workspace/Atividade_3"/>
+		<item value="/home/isaque/Projects/Workspace/Aprendizado"/>
+		<item value="/home/isaque/Projects/Workspace/Atividade_3"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

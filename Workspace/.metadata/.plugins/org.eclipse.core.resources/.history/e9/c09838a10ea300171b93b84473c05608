@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class CallCenter {
+	public static void main(String[] args) {
+		int cont = 0; 
+		String controle, descricao;
+		Scanner sc = new Scanner(System.in);
+		do {
+			System.out.println("Bem-vindo ao sistema de Suporte Tecnico..");
+			System.out.println();
+			System.out.println("Pressione <enter> para continuar ou digite 'sair' para sair do sistema.");
+			controle = sc.nextLine();
+			if(controle.equals("sair")) {
+				// Caso o usuario digite sair, saimos do programa.
+				System.exit(0);
+			}
+			System.out.println("Descreva seu problema de maneira sucinta.");
+			descricao = sc.nextLine();
+			// Instanciação da interpretadora.
+			Interpretadora inter = new Interpretadora(descricao);
+			SuporteTecnico st = new SuporteTecnico();
+			// Enquanto a negação da string Falha for verdadeira.
+			// Essa string é enviada quando o recorte de inter termina.
+			String aux = inter.proximaPalavraChave();
+			while(!aux.equals("Fim")) {
+				// Caso o buscaSolucao não ache falha a negação torna o if verdadeiro.
+				if(!st.buscaSolucao(aux).equals("Falha")) {
+					// Mostramos a solução
+					System.out.println(st.buscaSolucao(aux));
+					cont = 1; // Variável de controle e exibição da mensagem padrão.
+					break; // Paramos o laço.
+				}
+				// Caso não ache uma resposta.
+				aux = inter.proximaPalavraChave();
+			}
+			if(cont == 0) {
+				// Caso não ache uma resposta personalizada iremos buscar uma padrão.
+				System.out.println(st.respostaDefault());
+			}
+		}while(!controle.equals("sair"));
+		System.out.println("Obrigado por utilizar nossos sistemas..");
+		sc.close();
+	}
+}

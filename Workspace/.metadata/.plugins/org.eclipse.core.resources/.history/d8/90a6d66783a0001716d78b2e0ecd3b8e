@@ -1,0 +1,17 @@
+import java.util.HashSet;
+
+public class Interpretadora {
+	// Campos da classe.
+	// HashSet é um tipo de elemento que armazena os dados
+	// não repetindo estes caso um igual seja adicionado.
+	private HashSet<String> palavraChave;
+	
+	// Construtores da classe.
+	public Interpretadora(String problema) {
+		// palavrasChave ira receber um vetor de strings
+		// cada uma separada atravez do metodo split.
+		// O criterio de separacao e o espaco.
+		String[] palavrasChave = problema.split(" ");
+		// Preenchendo o HashSet com as strings.
+	}
+}
