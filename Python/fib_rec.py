@@ -7,7 +7,7 @@ def fib(n):
 		return 0
 	elif n == 1:
 		return 1
-	else
+	else:
 		return fib(n-1) + fib(n-2)
 
 print("O termo {} eh {}".format(n, fib(n)))

@@ -3,18 +3,16 @@
 n = int(input("Qual termo deseja ? ")) # Obtendo o termo.
 
 def fib(n):
-	if n == 0:
-		return 0
-	elif n == 1:
-		return 1
-	else
-		i = 0, n1 = 1, n2 = 0, num = 0
-		while i < n:
-			# Cálculo do número atual.
-			num = n1 + n2
-			n1 = num
-			n2 = n1
-			i = i + 1
-		return num
+	i = 0
+	f1 = 1
+	f2 = 0
+	fn = 0
+	while i < n:
+		# Cálculo do número atual.
+		fn = f2 + f1
+		f2 = f1
+		f1 = fn
+		i = i + 1
+	return fn
 
 print("O termo {} eh {}".format(n, fib(n)))
