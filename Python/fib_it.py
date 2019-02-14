@@ -3,10 +3,10 @@
 n = int(input("Qual termo deseja ? ")) # Obtendo o termo.
 
 def fib(n):
-	i = 0
+	i = 1
 	f1 = 1
 	f2 = 0
-	fn = 0
+	fn = 1
 	while i < n:
 		# Cálculo do número atual.
 		fn = f2 + f1
