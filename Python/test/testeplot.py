@@ -7,7 +7,7 @@ x = [1,2,3,4,5,6,7,8]
 y = []
 # Criando os valores correspondentes.
 for z in x:
-	y.append(z ** 2)
+	y.append(z**2)
 
 # Passando os parâmetros para combinação.
 plt.plot(x,y)
