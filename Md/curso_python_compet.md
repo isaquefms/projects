@@ -9,11 +9,11 @@ O curso será ofertado pelos alunos do `COMPET` com o objetivo de preparar os al
 
 ## Prazer
 
-É importante que durante todo o momento de ensino os professores estejam atentos, buscando inserir no ensino algo que interesse ao aluno (como sua área de pesquisa) para a demonstração de conteúdo. Isso facilitará o aprendizado, além de tornar o mesmo interessante.
+É importante que durante todo o momento de ensino os professores estejam atentos, buscando inserir no ensino algo que seja do interesse do aluno (como sua área de pesquisa) para a demonstração de conteúdo. Isso facilitará o aprendizado, além de tornar o mesmo interessante.
 
 ## Método
 
-É necessário que se busquem métodos para o ensino, de modo a proporcionar uma fixação do conteúdo compartilhado. Um bom exemplo seria a proposta de resolução de um desáfio para o aprendizado de um conceito.
+É necessário que se busquem métodos para o ensino, de modo a proporcionar uma fixação do conteúdo compartilhado. Um bom exemplo seria a proposta de resolução de um desáfio grande para o aprendizado de um conceito.
 
 ## Paciência
 
@@ -25,14 +25,8 @@ Descrever o Sistema
 
 ## Passos para o Curso
 
-### Contactar o aluno
+### Primeira Aula
 
-Entre em contato com o aluno e questione qual é a sua maior necessidade para a utilização do python e também o que ele utiliza com frequência em seus scripts (se houver).
+Problema proposto: Leitura de um arquivo `csv` para a partir das informações lidas sejá possível realizar cálculos estátisticos como média, variância, desvio padrão, moda e mediana. É importante que nesse ponto seja possível exibir para os alunos as estruturas básicas da linguagem como : variáveis, operadores aritméticos, listas, estruturas de controle e estruturas de repetição.
 
-### Preparar o material básico
-
-Monte scripts que utilize a necessidade do professor de modo a exibir também as estruturas básicas da linguagem.
-
-### Transcrever algum script (caso o aluno possua)
-
-Tente transcrever um script utilizado pelo aluno para a linguagem. Isso facilitará a assimilação e também uma comparação de desempenhos e vantagens e desvantagens.
+Codigo utilizado como exemplo: `adicionar o link`
